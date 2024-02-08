@@ -19,9 +19,20 @@ public class primeNumber {
         }
         return true;
     }
-    public static void main(String args[]){
+    // Write a function to print range of prime number for n num
+    public static void PrimeRange(int n){
+        for(int i=2;i<=n;i++){
+            if(isPrime(i)){
+                System.out.print(i+" ");
+            }
+        }
+        
+    }
 
-        System.out.println("Number is Prime =  " + isPrime(2));
+    public static void main(String args[]){
+        PrimeRange(20);
+
+  
 
     }
 }
