@@ -10,7 +10,7 @@ public class palindromeNumber {
             int remainder= palindrome%10;
             reverse= reverse*10+remainder;
             palindrome= palindrome/10;
-           
+           ra
         }
 
         if(number==reverse){
