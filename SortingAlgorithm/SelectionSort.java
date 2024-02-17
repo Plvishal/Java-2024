@@ -6,7 +6,7 @@ public class SelectionSort {
         for (int turn = 0; turn < arr.length - 1; turn++) {
             int minPos = turn;
             for (int j = turn + 1; j < arr.length; j++) { // For unSorted Array
-                if (arr[minPos] > arr[j]) {
+                if (arr[minPos] < arr[j]) {
                     minPos = j;
 
                 }
