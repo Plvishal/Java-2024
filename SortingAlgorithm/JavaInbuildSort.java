@@ -12,7 +12,7 @@ public class JavaInbuildSort {
 
     public static void main(String[] args) {
         int arr[] = { 5, 3, 4, 2, 1 };
-        Arrays.sort(arr);
+        Arrays.sort(arr, 2, 5);
         pirntArr(arr);
     }
 }
