@@ -27,10 +27,14 @@ public class Practice {
     }
 
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Strings: ");
-        String str = sc.nextLine().toLowerCase();
-        System.out.println(countVowel(str));
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the Strings: ");
+        // String str = sc.nextLine().toLowerCase();
+        // System.out.println(countVowel(str));
+        String str = "Vishal Pal";
+        String str1 = "Lucknow";
+        String str2 = "Vishal Pal";
+        System.out.println(str.equals(str1) + " " + str.equals(str2));
 
     }
 }
