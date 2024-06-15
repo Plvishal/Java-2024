@@ -31,10 +31,8 @@ public class Practice {
         // System.out.print("Enter the Strings: ");
         // String str = sc.nextLine().toLowerCase();
         // System.out.println(countVowel(str));
-        String str = "Vishal Pal";
-        String str1 = "Lucknow";
-        String str2 = "Vishal Pal";
-        System.out.println(str.equals(str1) + " " + str.equals(str2));
+        String str = "ApnaCollege".replace("l", "");
+        System.out.println(str);
 
     }
 }
